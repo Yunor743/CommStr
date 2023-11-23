@@ -18,7 +18,7 @@ jobs:
           override: true
       
       - name: Install musl target
-        run: rustup target add x86_64-unknown-linux-musl`
+        run: rustup target add x86_64-unknown-linux-musl
 
       - name: Build
         run: make && strip target/x86_64-unknown-linux-musl/release/commstr && mv target/x86_64-unknown-linux-musl/release/commstr target/release/commstr_musl_amd64
