@@ -1,0 +1,2 @@
+# CommStr
+Common Strings
