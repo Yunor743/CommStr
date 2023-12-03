@@ -19,7 +19,10 @@
                     "kind": "bin"
                 }
             },
-            "args": [],
+            "args": [
+                "-d",
+                "samples"
+            ],
             "cwd": "${workspaceFolder}"
         },
         {
@@ -28,7 +31,6 @@
             "name": "Debug unit tests in executable 'commstr'",
             "cargo": {
                 "args": [
-                    "test",
                     "--no-run",
                     "--bin=commstr",
                     "--package=commstr"

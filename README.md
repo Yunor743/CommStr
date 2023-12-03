@@ -13,3 +13,5 @@
 # CommStr
 
 find Common Strings betwee multiple binaries
+
+Work only on linux right now
